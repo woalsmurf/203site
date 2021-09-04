@@ -141,3 +141,23 @@ tr.calenderContext {
 
     font-size: x-large;
 }
+
+/* 개별 기사 버튼 */
+table.buttonContainer {
+    width: 100%;
+    text-align: center;
+    
+    background-color: #222222;
+}
+td.button {
+    width: 20%;
+    padding: 10px;
+    font-size: x-large;
+    border-width: 5px;
+}
+td.button:hover {
+    background-color: #333333;
+}
+a.button {
+    color: white;
+}
