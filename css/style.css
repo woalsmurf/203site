@@ -37,6 +37,7 @@ p {
 }
 p.quotation {
     font-style: italic;
+    font-size: medium;
     color: #555555;
     margin-left: 20px;
     padding: 5px;
