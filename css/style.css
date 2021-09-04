@@ -25,10 +25,12 @@ h1 {
 /* h2: 기사 제목 */
 h2 {
     font-size: xx-large;
+    font-family: "Nanum Gothic";
 }
 /* h3: 소제목 */
 h3 {
     font-size: x-large;
+    font-family: "Nanum Gothic";
 }
 /* 기본 p */
 p {
