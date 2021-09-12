@@ -25,13 +25,13 @@ h1 {
 }
 /* h2: 기사 제목 */
 h2 {
-    font-size: xx-large;
     font-family: "Nanum Gothic";
+    font-size: xx-large;
 }
 /* h3: 소제목 */
 h3 {
-    font-size: x-large;
     font-family: "Nanum Gothic";
+    font-size: x-large;
 }
 /* 기본 p */
 p {
@@ -68,14 +68,32 @@ table {
     padding: 0%;
 }
 /* 하이퍼링크 */
+a {
+    font-size: large;
+}
 a:link {
     color: black;
-    font-size: large;
 }
 a:visited {
     color: #555555
 }
 
+/* 줌 주소 테이블 */
+table.zoomContainer {
+    width: 100%;
+    height: 20%;
+    border-style: solid;
+    border-width: 2px;
+    margin-bottom: 20px;
+}
+/* 선생님 이름 */
+td.zoomTeacher {
+    background-color: #dddddd;
+}
+/* 줌 링크 */
+td.zoomLink {
+    background-color: #eeeeee;
+}
 /* 메인 컨테이너: 기사와 달력 */
 table.mainContainer {
     width: 100%;
@@ -127,6 +145,7 @@ thead.calenderTitle {
     font-size: 50px;
     text-align: center;
 }
+/* 월화수목금토일 */
 tr.days {
     background-color: #dddddd;
     height: 8%;
@@ -135,6 +154,7 @@ tr.days {
     font-family: "jua";
     font-size: xx-large;
 }
+/* 일별 */
 tr.calenderContext {
     background-color: #eeeeee;
     height: 14%;
